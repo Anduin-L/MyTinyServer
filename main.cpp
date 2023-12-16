@@ -4,7 +4,9 @@
 
 #include <iostream>
 
-int main() {
-  std::cout<<"Test...\n";
+int main(int argc, char *argv[]) {
+  // 命令行解析
+
+
   return 0;
 }
