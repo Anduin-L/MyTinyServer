@@ -1,32 +1,58 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
+*.so
+*.dll
+*.dylib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Lock files
+*.lock
+
+# CMake
+cmake-build-debug/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+Testing/
+
+# CLion
+.idea/
+
+# User-specific files
+*.rsuser
+*.rsuser.lock
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.dbmdl
+*.log
+*.idb
+*.pdb
+*.manifest
+*.tlog
+*.tlog/
+*.log/
+*.trace/
+*.ilk
+*.aps
+*.ipch
+*.ncb
+*.res
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+build/
